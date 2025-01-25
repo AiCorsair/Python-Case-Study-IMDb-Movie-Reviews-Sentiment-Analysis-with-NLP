@@ -9,11 +9,11 @@
 
 - [III. Data Importing & Preprocessing](#III.-Data-Importing-&-Preprocessing)
 
-- [IV. Notebook 1: Initial Data Exploration](#IV.-Notebook-1:-Initial-Data-Exploration)
+- [IV. Notebook 1 – Initial Data Exploration](#IV.-Notebook-1:-Initial-Data-Exploration)
 
-- [V. Notebook 2: Feature Selection, Model Training, Evaluation, & Tuning](#V.-Notebook-2:-Feature-Selection,-Model-Training,-Evaluation,-&-Tuning)
+- [V. Notebook 2 – Feature Selection, Model Training, Evaluation, & Tuning](#V.-Notebook-2:-Feature-Selection,-Model-Training,-Evaluation,-&-Tuning)
 
-- [VI. Notebook 3: Logistic Regression & Feature Contributions Evaluation](#VI.-Notebook-3:-Logistic-Regression-&-Feature-Contributions-Evaluation)
+- [VI. Notebook 3 – Logistic Regression & Feature Contributions Evaluation](#VI.-Notebook-3:-Logistic-Regression-&-Feature-Contributions-Evaluation)
 
 - [VII. Key Visualizations](#VII.-Key-Visualizations)
 
