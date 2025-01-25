@@ -38,13 +38,13 @@ Our workflow included data preprocessing, visualization, feature selection, mode
 
 The dataset contains `150,000` movie reviews and `14,206` unique movie titles, sourced from [Kaggle](https://www.kaggle.com/), with a total size of 384.06 MB in CSV format. Each entry includes:
 
--	**Rating:** User rating from `1` to `10`.
+- **Rating:** User rating from `1` to `10`.
 
--	**Review:** User review in English.
+- **Review:** User review in English.
 
--	**Movie:** Name of the movie.
+- **Movie:** Name of the movie.
 
--	**Resenhas:** Portuguese translation of the reviews.
+- **Resenhas:** Portuguese translation of the reviews.
 
 Since our focus was on English reviews, we excluded the Portuguese ones.
 
@@ -173,16 +173,16 @@ For each notebook (except the first), we also:
 
 Based on the table above:
 
--	The Logistic Regression model performs best in both the baseline and optimized versions, followed by Naïve Bayes, Random Forest, and AdaBoost.
+- The Logistic Regression model performs best in both the baseline and optimized versions, followed by Naïve Bayes, Random Forest, and AdaBoost.
 
--	Random Forest is the only model that overfitted, especially in the baseline version, with the optimized version showing significantly less overfitting and better performance.
+- Random Forest is the only model that overfitted, especially in the baseline version, with the optimized version showing significantly less overfitting and better performance.
 
--	Here are the explanations of the baseline logistic regression test evaluation metrics:
+- Here are the explanations of the baseline logistic regression test evaluation metrics:
 
-  -	**Accuracy (89.16%):** Percentage of correctly predicted sentiments (positive or negative) out of all reviews; measures overall performance in classifying IMDb reviews accurately.
+    - **Accuracy (89.16%):** Percentage of correctly predicted sentiments (positive or negative) out of all reviews; measures overall performance in classifying IMDb reviews accurately.
 
-  -	**AUC (95.81%):** Measures the model's ability to distinguish between positive and negative sentiments in IMDb reviews; higher AUC indicates better separation between the two sentiment classes.
+    - **AUC (95.81%):** Measures the model's ability to distinguish between positive and negative sentiments in IMDb reviews; higher AUC indicates better separation between the two sentiment classes.
 
-  -	**F1 (89.18%):** Harmonic mean of precision and recall; balances false positives and false negatives, useful for imbalanced datasets.
+    - **F1 (89.18%):** Harmonic mean of precision and recall; balances false positives and false negatives, useful for imbalanced datasets.
 
--	The similar accuracy (`89.16%`) and F1 score (`89.18%`) suggest that the model's predictions are well-balanced between true positives and true negatives, as the classes were balanced.
+- The similar accuracy (`89.16%`) and F1 score (`89.18%`) suggest that the model's predictions are well-balanced between true positives and true negatives, as the classes were balanced.
