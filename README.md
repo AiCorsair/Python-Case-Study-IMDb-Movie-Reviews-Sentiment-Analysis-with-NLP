@@ -171,7 +171,7 @@ For each notebook (except the first), we also:
 
 ![image](https://github.com/user-attachments/assets/16f95349-c515-44ae-a08d-92d9f9b32559)
 
-Based on the table above:
+Based on the tables above:
 
 - The Logistic Regression model performs best in both the baseline and optimized versions, followed by Naïve Bayes, Random Forest, and AdaBoost.
 
